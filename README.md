@@ -2,10 +2,6 @@
 
 > Este guia estabelece o padrão para a criação de documentações de automação na organização Pareto-Group-BR. O objetivo é garantir que todos os projetos sejam claros, replicáveis, sustentáveis e fáceis de entender por qualquer membro da equipe, a qualquer momento.
 
-Claro! Um índice (ou sumário) é uma excelente adição para facilitar a navegação no documento.
-
-Aqui está um índice em formato Markdown que você pode copiar e colar no início do seu guia "Como Criar Documentações de Automação no GitHub". Ele usa links de âncora que funcionarão automaticamente com os títulos que criamos.
-
 ---
 
 ## 📚 Índice
