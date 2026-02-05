@@ -50,6 +50,11 @@ A consistência é a chave para a organização.
     *   **Visibilidade:** **Public**.
     *   **Inicialização:** Marque a opção **"Add a README file"**.
 
+<img width="1354" height="388" alt="image" src="https://github.com/user-attachments/assets/8e367620-bb03-43ef-8ca3-81d4f6c87db2" />
+
+<img width="700" height="643" alt="image" src="https://github.com/user-attachments/assets/f95738d9-ae9e-481a-9eec-ef53acc343dc" />
+
+
 ### **1.3. Estrutura de Arquivos Padrão**
 
 Dentro do repositório, cada pasta de variação de fluxo deve conter obrigatoriamente três arquivos, como demonstrado na imagem de exemplo:
