@@ -68,9 +68,10 @@ Dentro do repositório, cada pasta de variação de fluxo deve conter obrigatori
 Para adicionar um novo arquivi, clique em "Add file" e depois em "Create new file".
 
 <img width="838" height="268" alt="image" src="https://github.com/user-attachments/assets/ac1219e9-de3d-45ce-b436-ae6c7caab181" />
-
-> Para que a formatação em Markdown funcione, é preciso que o **NOME do seu arquivo termine sempre com ".md"**.
-> Lembre-se de sempre adicionar um **Índice (Sumário)** em cada arquivo de sua documentação.
+>
+> Para que a formatação em Markdown funcione, é preciso que o **NOME do seu arquivo termine sempre com ".md"**.>
+>
+> Lembre-se de sempre adicionar um **Índice (Sumário)** em cada arquivo de sua documentação.>
 
 ---
 
