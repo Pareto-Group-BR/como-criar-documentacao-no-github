@@ -8,15 +8,15 @@
 
 1.  [**Filosofia Principal**](#1-filosofia-principal)
 2.  [**Estrutura e Nomenclatura: A Fundação**](#2-estrutura-e-nomenclatura-a-fundação)
-    *   [2.1. Padrão de Nomenclatura](#2.1-padrão-de-nomenclatura)
-    *   [2.2. Criação do Repositório no GitHub](#2.2-criação-do-repositório-no-github)
-    *   [2.3. Estrutura de Arquivos Padrão](#2.3-estrutura-de-arquivos-padrão)
+    *   [2.1. Padrão de Nomenclatura](#21-padrão-de-nomenclatura)
+    *   [2.2. Criação do Repositório no GitHub](#22-criação-do-repositório-no-github)
+    *   [2.3. Estrutura de Arquivos Padrão](#23-estrutura-de-arquivos-padrão)
 3.  [**O Coração da Documentação: `README.md`**](#3-o-coração-da-documentação-readmemd)
 4.  [**A Documentação Técnica: `Fluxo_N8N.md`**](#4-a-documentação-técnica-fluxo_n8nmd)
 5.  [**A Inteligência da Automação: `Agentes_de_IA.md`**](#5-a-inteligência-da-automação-agentes_de_iamd)
 6.  [**Boas Práticas e Manutenção Contínua**](#6-boas-práticas-e-manutenção-contínua)
-    *   [6.1. Use Versionamento com Tags e Releases](#6.1-use-versionamento-com-tags-e-releases)
-    *   [6.2. Mantenha a Documentação Viva](#6.2-mantenha-a-documentação-viva)
+    *   [6.1. Use Versionamento com Tags e Releases](#61-use-versionamento-com-tags-e-releases)
+    *   [6.2. Mantenha a Documentação Viva](#62-mantenha-a-documentação-viva)
 
 ---
 
