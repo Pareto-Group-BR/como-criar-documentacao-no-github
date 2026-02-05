@@ -79,7 +79,7 @@ Para adicionar um novo arquivi, clique em "Add file" e depois em "Create new fil
 
 ### **3. O Coração da Documentação: `README.md`**
 
-Este é o arquivo mais importante. Ele serve como um guia completo para o usuário, desde a visão geral até a replicação.
+Este é o arquivo central. Ele serve como um guia completo para o usuário, desde a visão geral até a replicação, contendo links para os arquivos mais detalhados (como o Fluxo e os Agentes de IA).
 
 **Seções Obrigatórias:**
 
