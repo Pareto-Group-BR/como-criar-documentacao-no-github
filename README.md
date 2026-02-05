@@ -135,8 +135,9 @@ Documentar os "cérebros" da automação é fundamental para sua replicação e 
     *   **Boas Práticas:** Nas configurações de compartilhamento do agente na Tess AI, **ative a opção "Permitir que outros usuários clonem este agente"**. Isso permite que qualquer pessoa crie uma cópia exata no próprio workspace com um único clique, acelerando drasticamente a replicação.
 *   **Configurações do Agente:** LLM, Temperatura, Ferramentas, etc.
 *   **Descrição Profissional:** Qual é o "cargo" do agente (ex: "Diretor de Criação", "Pesquisador Especialista").
-*   **Prompt Completo:** Cole o prompt exato dentro de um bloco de código Markdown para preservar a formatação.
-
+*   **Prompt Completo:** Cole o prompt exato dentro de um bloco de código Markdown para preservar a formatação. Caso haja algum AI Step (passos intermediários dentro do seu prompt), deixe isso claro e documentado, trazendo os LLMs ou ferramentas usadas e o prompt.
+*   **Prints de Exemplo:** Cole prints mostrando a configuração do seu agente na plataforma de IA utilizada.
+  
 ---
 
 ## **6. Boas Práticas e Manutenção Contínua**
