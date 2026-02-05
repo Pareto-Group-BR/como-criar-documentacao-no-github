@@ -24,6 +24,8 @@
 
 Uma automação só tem valor a longo prazo se for compreensível e passível de manutenção. A documentação não é uma tarefa secundária, mas uma parte integral do processo de desenvolvimento. Siga este guia para garantir que seu trabalho seja profissional e duradouro.
 
+Além disso, tenha em mente que toda automação deve ser "templatizável", ou seja, ter uma forma para se tornar replicável por outro usuário. E, a melhor forma de permitir uma replicação mais ágil e simples é criando uma documentação completa de sua automação, seguindo os passos abaixo.
+
 ---
 
 ## **2. Estrutura e Nomenclatura: A Fundação**
