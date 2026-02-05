@@ -60,13 +60,13 @@ Dentro do repositório, cada pasta de variação de fluxo deve conter obrigatori
 2.  `Fluxo_N8N.md`: O detalhamento técnico do workflow. (O nome pode variar para `Fluxo_Make.md`, `Fluxo_Zapier.md`, etc.).
 3.  `Agentes_de_IA.md`: A documentação de todos os agentes de IA utilizados.
 
-Lembre-se de sempre adicionar um **Índice (Sumário)** em cada arquivo de sua documentação.
+> Lembre-se de sempre adicionar um **Índice (Sumário)** em cada arquivo de sua documentação.
 
 ---
 
 ## **2. O Coração da Documentação: `README.md`**
 
-Este é o arquivo mais importante. Ele serve como um guia completo para o usuário.
+Este é o arquivo central da sua documentação. Ele serve como um guia completo para o usuário, uma espécie Manual de Operação da automação.
 
 **Seções Obrigatórias:**
 
@@ -76,7 +76,7 @@ Este é o arquivo mais importante. Ele serve como um guia completo para o usuár
     *   **Pré-requisitos:** Liste tudo que o usuário precisa para usar a automação.
     *   **O Centro de Comando:** Explique como interagir com a automação (ex: preencher uma linha em uma Planilha Google).
 *   **Arquitetura e Ferramentas:** Liste todas as plataformas e tecnologias envolvidas.
-*   **Passo a Passo para Replicar o Fluxo:** Um guia detalhado para que outra pessoa possa configurar a mesma automação em seu próprio ambiente.
+*   **Passo a Passo para Replicar o Fluxo:** Um guia detalhado para que outra pessoa possa configurar a mesma automação em seu próprio ambiente. É importante deixar claro tudo o que é necessário para a replicação e adicionar os links relevantes, como direcionamento para o arquivo do Fluxo ou os Agentes de IA.
 *   **Links e Recursos:** Links diretos para os arquivos `Fluxo_N8N.md` e `Agentes_de_IA.md` dentro do repositório.
 
 ---
