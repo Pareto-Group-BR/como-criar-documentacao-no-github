@@ -107,7 +107,7 @@ Este é o blueprint técnico do seu workflow.
 **Seções Obrigatórias:**
 
 *   **Visão Geral da Arquitetura:** Um resumo técnico do funcionamento do fluxo.
-*   **Diagrama Detalhado do Fluxo:** Insira um segundo diagrama, mais detalhado, que mostre os nós principais e suas conexões dentro da plataforma de integração.
+*   **Diagrama Detalhado do Fluxo:** Insira um diagrama (pode ser criado em formato .mermaid) que mostre os nós principais e suas conexões dentro da plataforma de integração. Uma boa prática é separar o fluxo por FASES, de modo que facilite o entendimento por parte do usuário. Essas mesmas fases serão descritas na seção de Fluxo, com os nós (ou etapas), APIs e credenciais necessárias.
 *   **Resumo de APIs, Plataformas e Credenciais:** Um checklist crucial para o usuário.
 
 | Serviço/API | Tipo de Autenticação | Plataforma |
@@ -117,7 +117,7 @@ Este é o blueprint técnico do seu workflow.
 | Tess AI API | Bearer Token | Tess AI |
 | HTML/CSS-to-Image API | API Key | HTML/CSS-to-Image |
 
-*   **Detalhamento do Fluxo por Fases:** Descreva cada nó ou etapa importante, informando seu tipo, descrição, e configurações principais.
+*   **Detalhamento do Fluxo por Fases:** Descreva todas as fases da automação e cada nó ou etapa importante contida, informando seu tipo, descrição, e configurações principais. Adicione prints de tela que mostrem essas fases descritas.
 *   **Link para Download do Arquivo do Fluxo:**
     1.  **Sanitização Obrigatória:** Envie o seu arquivo de fluxo (`.json`) para o agente de IA [Anonimizador/Sanitizador de JSON da Tess](https://tess.im/pt-BR/dashboard/user/ai/chat/ai-chat/anonimizadorsanitizador-de-json-para-documentacao-HfUS2D) para remover todas as credenciais, tokens e chaves de API. Gere, no próprio agente de IA, um link público deste novo JSON sanitizado.
     2.  **Hospedagem:** Salve o conteúdo sanitizado em um novo arquivo `.json` (o próprio gerado pela TESS) e faça o upload para o mesmo diretório no GitHub.
