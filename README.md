@@ -1,4 +1,4 @@
-# **Guia Definitivo: Como Criar Documentações de Automação no GitHub (Padrão Pareto)**
+# **Guia: Como Criar Documentações de Automação no GitHub (Padrão Pareto)**
 
 > Este guia estabelece o padrão para a criação de documentações de automação na organização Pareto-Group-BR. O objetivo é garantir que todos os projetos sejam claros, replicáveis, sustentáveis e fáceis de entender por qualquer membro da equipe, a qualquer momento.
 
@@ -117,8 +117,8 @@ Este é o blueprint técnico do seu workflow.
 
 *   **Detalhamento do Fluxo por Fases:** Descreva cada nó ou etapa importante, informando seu tipo, descrição, e configurações principais.
 *   **Link para Download do Arquivo do Fluxo:**
-    1.  **Sanitização Obrigatória:** Copie o conteúdo do seu arquivo de fluxo (`.json`) e use o agente [Anonimizador/Sanitizador de JSON da Tess](https://tess.im/pt-BR/dashboard/user/ai/chat/ai-chat/anonimizadorsanitizador-de-json-para-documentacao-HfUS2D) para remover todas as credenciais, tokens e chaves de API.
-    2.  **Hospedagem:** Salve o conteúdo sanitizado em um novo arquivo `.json` e faça o upload para o mesmo diretório no GitHub.
+    1.  **Sanitização Obrigatória:** Envie o seu arquivo de fluxo (`.json`) para o agente de IA [Anonimizador/Sanitizador de JSON da Tess](https://tess.im/pt-BR/dashboard/user/ai/chat/ai-chat/anonimizadorsanitizador-de-json-para-documentacao-HfUS2D) para remover todas as credenciais, tokens e chaves de API. Gere, no próprio agente de IA, um link público deste novo JSON sanitizado.
+    2.  **Hospedagem:** Salve o conteúdo sanitizado em um novo arquivo `.json` (o próprio gerado pela TESS) e faça o upload para o mesmo diretório no GitHub.
     3.  **Link:** Adicione o link de download para este arquivo sanitizado.
 
 ---
