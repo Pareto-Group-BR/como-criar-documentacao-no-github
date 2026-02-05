@@ -6,31 +6,31 @@
 
 ## 📚 Índice
 
-1.  [**Filosofia Principal**](#filosofia-principal)
-2.  [**Estrutura e Nomenclatura: A Fundação**](#1-estrutura-e-nomenclatura-a-fundação)
-    *   [1.1. Padrão de Nomenclatura](#11-padrão-de-nomenclatura)
-    *   [1.2. Criação do Repositório no GitHub](#12-criação-do-repositório-no-github)
-    *   [1.3. Estrutura de Arquivos Padrão](#13-estrutura-de-arquivos-padrão)
-3.  [**O Coração da Documentação: `README.md`**](#2-o-coração-da-documentação-readmemd)
-4.  [**A Documentação Técnica: `Fluxo_N8N.md`**](#3-a-documentação-técnica-fluxo_n8nmd)
-5.  [**A Inteligência da Automação: `Agentes_de_IA.md`**](#4-a-inteligência-da-automação-agentes_de_iamd)
-6.  [**Boas Práticas e Manutenção Contínua**](#5-boas-práticas-e-manutenção-contínua)
-    *   [5.1. Use Versionamento com Tags e Releases](#51-use-versionamento-com-tags-e-releases)
-    *   [5.2. Mantenha a Documentação Viva](#52-mantenha-a-documentação-viva)
+1.  [**Filosofia Principal**](#1-filosofia-principal)
+2.  [**Estrutura e Nomenclatura: A Fundação**](#2-estrutura-e-nomenclatura-a-fundação)
+    *   [2.1. Padrão de Nomenclatura](#2.1-padrão-de-nomenclatura)
+    *   [2.2. Criação do Repositório no GitHub](#2.2-criação-do-repositório-no-github)
+    *   [2.3. Estrutura de Arquivos Padrão](#2.3-estrutura-de-arquivos-padrão)
+3.  [**O Coração da Documentação: `README.md`**](#3-o-coração-da-documentação-readmemd)
+4.  [**A Documentação Técnica: `Fluxo_N8N.md`**](#4-a-documentação-técnica-fluxo_n8nmd)
+5.  [**A Inteligência da Automação: `Agentes_de_IA.md`**](#5-a-inteligência-da-automação-agentes_de_iamd)
+6.  [**Boas Práticas e Manutenção Contínua**](#6-boas-práticas-e-manutenção-contínua)
+    *   [6.1. Use Versionamento com Tags e Releases](#6.1-use-versionamento-com-tags-e-releases)
+    *   [6.2. Mantenha a Documentação Viva](#6.2-mantenha-a-documentação-viva)
 
 ---
 
-## **Filosofia Principal**
+## **1. Filosofia Principal**
 
 Uma automação só tem valor a longo prazo se for compreensível e passível de manutenção. A documentação não é uma tarefa secundária, mas uma parte integral do processo de desenvolvimento. Siga este guia para garantir que seu trabalho seja profissional e duradouro.
 
 ---
 
-## **1. Estrutura e Nomenclatura: A Fundação**
+## **2. Estrutura e Nomenclatura: A Fundação**
 
 Antes de escrever a primeira linha, a estrutura do repositório deve ser definida corretamente.
 
-### **1.1. Padrão de Nomenclatura**
+### **2.1. Padrão de Nomenclatura**
 
 A consistência é a chave para a organização.
 
@@ -39,7 +39,7 @@ A consistência é a chave para a organização.
 *   **Pastas Internas:** Se a automação tiver variações (ex: fluxos para clientes diferentes ou com objetivos distintos), crie pastas para separá-las.
     *   **Exemplo:** `ORIGINAIS`, `SUGESTOES`, `CLIENTE_A`
 
-### **1.2. Criação do Repositório no GitHub**
+### **2.2. Criação do Repositório no GitHub**
 
 1.  **Acesse a Organização:** Navegue até [Pareto-Group-BR](https://github.com/Pareto-Group-BR).
     *   *Caso não seja membro, peça a um administrador para lhe adicionar.*
@@ -55,7 +55,7 @@ A consistência é a chave para a organização.
 <img width="700" height="643" alt="image" src="https://github.com/user-attachments/assets/f95738d9-ae9e-481a-9eec-ef53acc343dc" />
 
 
-### **1.3. Estrutura de Arquivos Padrão**
+### **2.3. Estrutura de Arquivos Padrão**
 
 Dentro do repositório, cada pasta de variação de fluxo deve conter obrigatoriamente três arquivos, como demonstrado na imagem de exemplo:
 
@@ -74,24 +74,30 @@ Para adicionar um novo arquivi, clique em "Add file" e depois em "Create new fil
 
 ---
 
-## **2. O Coração da Documentação: `README.md`**
+### **3. O Coração da Documentação: `README.md`**
 
-Este é o arquivo central da sua documentação. Ele serve como um guia completo para o usuário, uma espécie Manual de Operação da automação.
+Este é o arquivo mais importante. Ele serve como um guia completo para o usuário, desde a visão geral até a replicação.
 
 **Seções Obrigatórias:**
 
 *   **Visão Geral e Objetivo:** O que a automação faz, qual problema resolve e qual o resultado final.
 *   **Diagrama Visual do Fluxo:** **Essencial.** Insira uma imagem de um diagrama de alto nível que mostre as principais fases da automação (ex: Planilha -> N8N -> Tess AI -> Google Drive -> Notificação). Isso proporciona um entendimento imediato do processo.
+*   **Exemplos de Saída da Automação (NOVO):** Mostre o resultado final! Esta seção tangibiliza o que a automação produz.
+    *   **O que incluir:**
+        *   **Imagens ou GIFs:** Adicione screenshots ou GIFs do produto final (ex: as imagens do carrossel gerado, um print da linha preenchida na planilha, o email de notificação).
+        *   **Links:** Se os artefatos são salvos em algum lugar (como uma pasta no Google Drive), adicione um link para a pasta de exemplos.
+        *   **Descrição:** Explique brevemente o que cada exemplo representa.
+    *   **Objetivo:** Permitir que o usuário veja a qualidade e o formato do resultado antes mesmo de rodar ou replicar a automação.
 *   **Manual de Operação:**
     *   **Pré-requisitos:** Liste tudo que o usuário precisa para usar a automação.
     *   **O Centro de Comando:** Explique como interagir com a automação (ex: preencher uma linha em uma Planilha Google).
 *   **Arquitetura e Ferramentas:** Liste todas as plataformas e tecnologias envolvidas.
-*   **Passo a Passo para Replicar o Fluxo:** Um guia detalhado para que outra pessoa possa configurar a mesma automação em seu próprio ambiente. É importante deixar claro tudo o que é necessário para a replicação e adicionar os links relevantes, como direcionamento para o arquivo do Fluxo ou os Agentes de IA.
+*   **Passo a Passo para Replicar o Fluxo:** Um guia detalhado para que outra pessoa possa configurar a mesma automação em seu próprio ambiente.
 *   **Links e Recursos:** Links diretos para os arquivos `Fluxo_N8N.md` e `Agentes_de_IA.md` dentro do repositório.
 
 ---
 
-## **3. A Documentação Técnica: `Fluxo_N8N.md`**
+## **4. A Documentação Técnica: `Fluxo.md`**
 
 Este é o blueprint técnico do seu workflow.
 
@@ -116,7 +122,7 @@ Este é o blueprint técnico do seu workflow.
 
 ---
 
-## **4. A Inteligência da Automação: `Agentes_de_IA.md`**
+## **5. A Inteligência da Automação: `Agentes_de_IA.md`**
 
 Documentar os "cérebros" da automação é fundamental para sua replicação e evolução.
 
@@ -130,11 +136,11 @@ Documentar os "cérebros" da automação é fundamental para sua replicação e 
 
 ---
 
-## **5. Boas Práticas e Manutenção Contínua**
+## **6. Boas Práticas e Manutenção Contínua**
 
 Para elevar a qualidade e a longevidade da sua documentação:
 
-### **5.1. Use Versionamento com Tags e Releases**
+### **6.1. Use Versionamento com Tags e Releases**
 
 Não confie apenas no histórico de commits. Quando uma versão estável da sua automação for concluída ou atualizada significativamente:
 
@@ -148,6 +154,6 @@ Não confie apenas no histórico de commits. Quando uma versão estável da sua 
 
 **Por que isso é importante?** Releases criam um "ponto na história" permanente e imutável do seu projeto, facilitando o acompanhamento de mudanças e a referência a versões anteriores.
 
-### **5.2. Mantenha a Documentação Viva**
+### **6.2. Mantenha a Documentação Viva**
 
-Uma documentação desatualizada é pior do que nenhuma documentação. Crie o hábito: **mudou a automação, atualize a documentação.** A mudança só está "concluída" quando a documentação reflete o novo estado.
+Uma documentação desatualizada dificulta o trabalho de quem irá fazer a manutenção e de quem irá replicá-la. Crie o hábito: **mudou a automação, atualize a documentação.** A mudança só está "concluída" quando a documentação reflete o novo estado.
