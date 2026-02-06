@@ -12,7 +12,7 @@
     *   [2.2. Criação do Repositório no GitHub](#22-criação-do-repositório-no-github)
     *   [2.3. Estrutura de Arquivos Padrão](#23-estrutura-de-arquivos-padrão)
 3.  [**O Coração da Documentação: `README.md`**](#3-o-coração-da-documentação-readmemd)
-4.  [**A Documentação Técnica: `Fluxo_N8N.md`**](#4-a-documentação-técnica-fluxo_n8nmd)
+4.  [**A Documentação Técnica: `Fluxo.md` ou `Detalhamento_Técnico.md`**](#4-a-documentação-técnica-fluxonmd)
 5.  [**A Inteligência da Automação: `Agentes_de_IA.md`**](#5-a-inteligência-da-automação-agentes_de_iamd)
 6.  [**Boas Práticas e Manutenção Contínua**](#6-boas-práticas-e-manutenção-contínua)
     *   [6.1. Use Versionamento com Tags e Releases](#61-use-versionamento-com-tags-e-releases)
@@ -100,13 +100,13 @@ Este é o arquivo central. Ele serve como um guia completo para o usuário, desd
 
 ---
 
-## **4. A Documentação Técnica: `Fluxo.md`**
+## **4. A Documentação Técnica: `Fluxo.md` ou `Detalhamento_Técnico**
 
 Este é o blueprint técnico do seu workflow.
 
 **Seções Obrigatórias:**
 
-*   **Visão Geral da Arquitetura:** Um resumo técnico do funcionamento do fluxo.
+*   **Visão Geral da Arquitetura:** Um resumo técnico do funcionamento do fluxo ou da plataforma desenvolvida (caso utilize uma integração externa, como *Lovable*).
 *   **Diagrama Detalhado do Fluxo:** Insira um diagrama (pode ser criado em formato .mermaid) que mostre os nós principais e suas conexões dentro da plataforma de integração. Uma boa prática é separar o fluxo por FASES, de modo que facilite o entendimento por parte do usuário. Essas mesmas fases serão descritas na seção de Fluxo, com os nós (ou etapas), APIs e credenciais necessárias.
 *   **Resumo de APIs, Plataformas e Credenciais:** Um checklist crucial para o usuário.
 
@@ -117,9 +117,9 @@ Este é o blueprint técnico do seu workflow.
 | Tess AI API | Bearer Token | Tess AI |
 | HTML/CSS-to-Image API | API Key | HTML/CSS-to-Image |
 
-*   **Detalhamento do Fluxo por Fases:** Descreva todas as fases da automação e cada nó ou etapa importante contida, informando seu tipo, descrição, e configurações principais. Adicione prints de tela que mostrem essas fases descritas.
-*   **Link para Download do Arquivo do Fluxo:**
-    1.  **Sanitização Obrigatória:** Envie o seu arquivo de fluxo (`.json`) para o agente de IA [Anonimizador/Sanitizador de JSON da Tess](https://tess.im/pt-BR/dashboard/user/ai/chat/ai-chat/anonimizadorsanitizador-de-json-para-documentacao-HfUS2D) para remover todas as credenciais, tokens e chaves de API. Gere, no próprio agente de IA, um link público deste novo JSON sanitizado.
+*   **Detalhamento do Fluxo por Fases:** Descreva todas as fases da automação e cada nó ou etapa importante contida, informando seu tipo, descrição, e configurações principais. Adicione prints de tela que mostrem essas fases descritas. Caso a automação tenha sido desenvolvida em uma plataforma externa cntendo uma interface (como a *Lovable*), é importante trazer como está configurada e pré-requisitos necessários, permitindo a repliicação.
+*   **Link para Download do Arquivo do Fluxo (se existir):**
+    1.  **Sanitização Obrigatória:** Caso o seu fluxo tenha sido desenvolvido em uma plataforma integradora (Make, N8N, Zapier), baixe o arquivo contendo as etapas do fluxo. Envie este arquivo (`.json`) para o agente de IA [Anonimizador/Sanitizador de JSON da Tess](https://tess.im/pt-BR/dashboard/user/ai/chat/ai-chat/anonimizadorsanitizador-de-json-para-documentacao-HfUS2D) para remover todas as credenciais, tokens e chaves de API. Gere, no próprio agente de IA, um link público deste novo JSON sanitizado.
     2.  **Hospedagem:** Salve o conteúdo sanitizado em um novo arquivo `.json` (o próprio gerado pela TESS) e faça o upload para o mesmo diretório no GitHub.
     3.  **Link:** Adicione o link de download para este arquivo sanitizado.
 
