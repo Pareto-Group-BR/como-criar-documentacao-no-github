@@ -2,7 +2,7 @@
 
 > Este guia estabelece o padrão para a criação de documentações de automação na organização Pareto-Group-BR. O objetivo é garantir que todos os projetos sejam claros, replicáveis, sustentáveis e fáceis de entender.
 
-> DICA: Caso a sua automação tenha sido desenvolvida via *Lovable*, é possível conectá-la diretamente ao GitHube para que a documentação seja criada automaticamente, estando sempre atualizada com os ajustes realizados por lá (o que facilita o processo).
+> DICA: Caso a sua automação tenha sido desenvolvida via *Lovable*, é possível conectá-la diretamente ao GitHub para que a documentação seja criada automaticamente, estando sempre atualizada com os ajustes realizados por lá (o que facilita o processo).
 
 ---
 
